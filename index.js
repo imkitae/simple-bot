@@ -1,3 +1,4 @@
+"use strict";
 const Bot = require('./lib/Bot');
 const deploy = require('./tasks/deploy');
 
