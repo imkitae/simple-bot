@@ -1,7 +1,8 @@
 const Bot = require('./lib/Bot');
 const deploy = require('./tasks/deploy');
 
-const bot = new Bot('<YOUR-SLACK-BOT-TOKEN>');
+const token = process.env.SLACK_BOT_TOKEN;
+const bot = new Bot(token);
 
 bot.defineTask('deploy', deploy);
 
