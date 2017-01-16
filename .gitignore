@@ -39,3 +39,4 @@ jspm_packages
 # Etc..
 .idea
 deployer/stage/*
+pm2.config.js
